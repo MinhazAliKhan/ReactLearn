@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  width: 100%;
+  /* background-image: radial-gredient(
+    rgba(185, 235, 136, 0.2),
+    rgba(218, 233, 89, 0.2),
+    rgba(0, 255, 0, 0.2)
+  ); */
+  /* url(/public/about.png);
+  background-repeat: no-repeat;
+  background-position: right; */
+  background-image: radial-gradient(
+      circle,
+      rgba(185, 235, 136, 0.2),
+      rgba(218, 233, 89, 0.2),
+      rgba(0, 255, 0, 0.2),
+      yellow
+    ),
+    url(/public/about.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
